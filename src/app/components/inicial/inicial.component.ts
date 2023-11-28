@@ -15,7 +15,11 @@ export class InicialComponent {
   ngOnInit() {
 
     this.dataService.getDataInicial().subscribe({
-      next: (v) => this.data = v,
+      next: (v) => {
+        this.data = v;
+        console.log(v);
+      }
+      ,
       error: (e) => console.error("nextii ",e),
       complete: () => console.info('complete') 
   })

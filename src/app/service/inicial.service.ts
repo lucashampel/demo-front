@@ -7,7 +7,7 @@ import { of } from 'rxjs';
   providedIn: 'root'
 })
 export class InicialService {
-  private apiUrl = 'http://localhost:8080/api/test';
+  private apiUrl = 'http://localhost:8080/myentities';
 
   constructor(private http: HttpClient) { }
 
