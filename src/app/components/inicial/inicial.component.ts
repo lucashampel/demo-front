@@ -11,7 +11,7 @@ export class InicialComponent {
   data: any;
 
   constructor(private dataService: InicialService) {}
-
+  items = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
   ngOnInit() {
 
     this.dataService.getDataInicial().subscribe({
@@ -23,6 +23,10 @@ export class InicialComponent {
       error: (e) => console.error("nextii ",e),
       complete: () => console.info('complete') 
   })
+  }
+
+  chamarendpoint(){
+
   }
 
 }

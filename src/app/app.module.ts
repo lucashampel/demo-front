@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { InicialComponent } from './components/inicial/inicial.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AppMenu } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
-    InicialComponent
+    InicialComponent,
+    AppMenu
   ],
   imports: [
     BrowserModule,
@@ -15,6 +17,6 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [InicialComponent]
+  bootstrap: [InicialComponent, AppMenu]
 })
 export class AppModule { }
