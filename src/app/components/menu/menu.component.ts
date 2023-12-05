@@ -13,7 +13,7 @@ export class AppMenu {
   constructor(private dataService: InicialService) {}
 
   ngOnInit() {
-
+  
   }
 
 }

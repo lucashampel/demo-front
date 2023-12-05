@@ -1,0 +1,33 @@
+.app-container {
+    display: flex;
+}
+
+.side-menu {
+    height: 100vh; /* Full height */
+    width: 250px; /* Width of the side menu */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.menu-item {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.menu-item:hover {
+    color: #f1f1f1;
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 250px; /* Same as the width of the side menu */
+    padding: 20px;
+}

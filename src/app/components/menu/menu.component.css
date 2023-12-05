@@ -1,6 +1,6 @@
 .side-menu {
   height: 100%;
-  width: 250px; /* Width of the side menu */
+  width: 20%; /* Width of the side menu */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -14,7 +14,7 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color: rgb(143, 30, 30);
   display: block;
 }
 
